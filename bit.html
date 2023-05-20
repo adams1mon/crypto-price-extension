@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bitcoin Price App</title>
+	<link rel="stylesheet" type="text/css" href="bit.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Bitcoin Price</h1>
+		<h3 id="price"></h3>
+		<div id="currency">
+			<label>
+				<input type="radio" name="currency" value="1" checked>
+				USD
+			</label>
+			<label>
+				<input type="radio" name="currency" value="2"> 
+				GBP
+			</label>
+			<label>
+				<input type="radio" name="currency" value="3">
+				EUR
+			</label>
+		</div>
+		
+		<button id="refresh">Refresh Price</button>
+		<p>Price refreshing automatically every 30 seconds</p>
+	</div>
+
+	<script type="text/javascript" src="bit.js"></script>
+</body>
+</html>
