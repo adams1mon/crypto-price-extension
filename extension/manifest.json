@@ -1,15 +1,14 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Bitcoin Price Widget",
 	"version": "1.0.0",
 	"description": "Simple Bitcoin price widget powered by the CoinDesk API",
 	"icons": {
 		"128": "icon_128.png"
 	},
-	"browser_action": {
+	"action": {
 		"default_icon": "icon.png",
 		"default_popup": "bit.html"
 	},
-	"permissions": ["activeTab"],
 	"author": "Adam Simon"
 }
